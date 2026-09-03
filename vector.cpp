@@ -8,7 +8,6 @@ class Stack {
     public:
         Stack() {
             top = -1;
-
         }
 
     bool isoverflow() {
@@ -77,7 +76,6 @@ int main() {
             cout << "invalid";
             break;
     }
+}
     while(ch!=5);
-        
-    }
 }
